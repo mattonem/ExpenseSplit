@@ -112,8 +112,8 @@ ExpenseSplit class >> generateHtmlUsing: html [
 						].
 					].
 					html div class: 'modal-footer'; with: [
-						html button type: 'button' class: 'btn btn-secondary' data-bs-dismiss: 'modal'; with: [ html text: 'Close' ].
-						html button type: 'submit' form: 'addExpenseForm' class: 'btn btn-primary'; with: [ html text: 'Save Expense' ].
+						html button  class: 'btn btn-secondary' data-bs-dismiss: 'modal'; with: [ html text: 'Close' ].
+						html button form: 'addExpenseForm' class: 'btn btn-primary'; with: [ html text: 'Save Expense' ].
 					].
 				].
 			].
