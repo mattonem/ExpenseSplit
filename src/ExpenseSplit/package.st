@@ -1,1 +1,1 @@
-Package { #name : 'LoanCalculator' }
+Package { #name : 'ExpenseSplit' }
