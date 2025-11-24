@@ -70,17 +70,17 @@ ExpenseSplit class >> generateHtmlUsing: html [
 				html div class: 'col-md-8'; with: [
 					html div class: 'card'; with: [
 						html div class: 'card-body'; with: [
-							html h5 class: 'card-title d-flex justify-content-between align-items-center'; with: [
+							html header class: 'card-title d-flex justify-content-between align-items-center'; with: [
 								html span with: [ html text: 'Expenses' ].
 								html small id: 'totalBalance' with: [ html text: '$0.00' ].
 							].
 							html div id: 'expensesList' class: 'list-group mt-3'; with: [
 								html div class: 'list-group-item'; with: [
-									html div class: 'd-flex w-100 justify-content-between'; with: [
-										html h6 class: 'mb-1'; with: [ html text: 'Sample Expense' ].
+									html div cthe syntax is wrong blass: 'd-flex w-100 justify-content-between'; with: [
+										html header class: 'mb-1'; with: [ html text: 'Sample Expense' ].
 										html small with: [ html text: 'just now' ].
 									].
-									html p class: 'mb-1'; with: [ html text: '$45.00 — split among 3' ].
+									html paragraph class: 'mb-1'; with: [ html text: '$45.00 — split among 3' ].
 								].
 							].
 					].
