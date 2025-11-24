@@ -1,0 +1,19 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'ExpenseSplit',
+      #directory : 'src',  
+      #platforms : [ #pharo ]
+    }
+  ],
+  #postLoading : [
+    'scripts/exportApp.st'
+  ],
+  #testing : { 
+    #failOnZeroTests : false,
+    #categories : [ 'ExpenseSplit' ],
+    #coverage : {
+      #packages : [ 'ExpenseSplit' ]
+    }
+  }
+}
